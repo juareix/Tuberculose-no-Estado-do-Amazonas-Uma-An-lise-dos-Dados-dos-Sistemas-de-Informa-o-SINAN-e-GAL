@@ -1,16 +1,65 @@
-# 📊 PAIC-TUBERCULOSE - Análise de Dados de Tuberculose no Amazonas
+# 🧬 Análise da Qualidade dos Dados de Tuberculose no Amazonas (2007–2024)
 
-**Repositório FAIR** para análise de casos de tuberculose no Amazonas (2007-2023) utilizando dados do SINAN e GAL
+Repositório do projeto de Iniciação Científica desenvolvido na Fiocruz Amazônia. O objetivo central é avaliar a qualidade dos dados dos sistemas SINAN e GAL relacionados à tuberculose no estado do Amazonas entre 2007 e 2024, com foco em completude, consistência, padronização e disponibilização dos resultados conforme os princípios FAIR.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![R](https://img.shields.io/badge/R-4.3.0+-blue.svg)](https://www.r-project.org/)
+---
 
-## 📌 Visão Geral
+## 🎯 Objetivos do Projeto
 
-Este repositório contém todo o fluxo analítico para:
+- Avaliar **completude e inconsistência** das variáveis nas bases SINAN e GAL;
+- Executar **análises descritivas** com recorte temporal e geográfico;
+- Documentar os dados com **dicionário de variáveis e metadados padronizados**;
+- Desenvolver um **dashboard interativo** para exploração analítica;
+- Promover **reprodutibilidade científica** com scripts automatizados e modularizados.
 
-- Avaliação da qualidade dos dados (completude e consistência)
-- Análise epidemiológica descritiva
-- Dashboard interativo para vigilância da tuberculose
+---
 
-## 🏗️ Estrutura do Projeto
+## 📁 Estrutura do Repositório
+
+```bash
+├── data/                   # Scripts de extração e pré-processamento (sem dados brutos)
+├── scripts/                # Códigos para análise estatística e geração de outputs
+├── outputs/
+│   ├── dashboard/          # Dashboard interativo (HTML/Markdown)
+│   └── relatorios/         # Relatórios analíticos e técnicos (PDF/HTML)
+├── metadata/               # Dicionário de dados, esquemas e codebooks
+├── README.md               # Arquivo de apresentação do projeto
+└── LICENSE                 # Licença MIT
+
+🧪 Tecnologias Utilizadas
+Linguagem: R
+
+IDE: RStudio
+
+Principais pacotes:
+
+tidyverse, dplyr, ggplot2, janitor, codebook, lubridate
+
+shiny
+
+📊 Acesso ao Dashboard
+O dashboard interativo contém filtros e visualizações específicas para a tuberculose no Amazonas (2007–2024).
+
+🔗 Link (): https:
+
+🔐 Privacidade e Compartilhamento de Dados
+Os dados sensíveis não são disponibilizados neste repositório em conformidade com os princípios de privacidade e confidencialidade. Apenas outputs agregados, scripts e metadados anonimizados são publicados.
+
+📄 Documentação Técnica
+
+
+📌 Resultados e Considerações Técnicas
+
+
+♻️ Reprodutibilidade
+Todos os scripts seguem boas práticas de organização, com modularização e uso de renv para controle de dependências (opcional). Recomenda-se clonar o repositório e executar os scripts sequencialmente a partir da pasta /scripts.
+
+🧾 Licença
+Este projeto está licenciado sob a MIT License.
+
+👨‍🔬 Sobre
+Projeto de Iniciação Científica desenvolvido no âmbito do ILMD/Fiocruz Amazônia, com foco em epidemiologia computacional, vigilância em saúde e transparência de dados.
+
+📬 Contato
+Dúvidas ou colaborações:
+
