@@ -1,4 +1,4 @@
-# 🧬 Análise da Qualidade dos Dados de Tuberculose no Amazonas (2007–2024)
+# 🧬 Análise da Qualidade dos Dados de Tuberculose no Amazonas (2007–2023)
 
 Repositório do projeto de Iniciação Científica desenvolvido na Fiocruz Amazônia. O objetivo central é avaliar a qualidade dos dados dos sistemas SINAN e GAL relacionados à tuberculose no estado do Amazonas entre 2007 e 2024, com foco em completude, consistência, padronização e disponibilização dos resultados conforme os princípios FAIR.
 
